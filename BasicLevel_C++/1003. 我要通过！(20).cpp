@@ -1,6 +1,6 @@
 #include <iostream>
 #include <map>
-using namespace std;
+using namespace std; 
 int main() {
     int n, p = 0, t = 0;
     string s;
@@ -18,5 +18,5 @@ int main() {
         else
             printf("NO\n");
     }
-    return 0;
+    return 0;// 这道题的关键点是根据A的位置理解A的不同位置A的个数
 }

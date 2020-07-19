@@ -13,5 +13,5 @@ int main() {
         if (i != 0) cout << " ";
         cout << str[num[i] - '0'];
     }
-    return 0;
+    return 0;//注意string串的输出
 }
