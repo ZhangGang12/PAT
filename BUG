@@ -1,0 +1,1 @@
+用printf输出string字符串时，使用printf("%s", s.c_str());
