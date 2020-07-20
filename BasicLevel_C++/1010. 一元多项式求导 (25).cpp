@@ -9,6 +9,6 @@ int main() {
             flag = 1;
         }
     }
-    if (flag == 0) cout << "0 0";
+    if (flag == 0) cout << "0 0";  //注意如果只有一个导数为0，则输出 0 0
     return 0;
 }

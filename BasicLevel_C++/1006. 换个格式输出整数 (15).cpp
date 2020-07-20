@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std;  //正整数大于零
 int main() {
     int a, i = 0;
     cin >> a;
@@ -16,3 +16,36 @@ int main() {
         cout << k + 1;
     return 0;
 }
+/*
+    我的无脑暴力写法
+    string nums[11] = {
+        "",
+        "1",
+        "12",
+        "123",
+        "1234",
+        "12345",
+        "123456",
+        "1234567",
+        "12345678",
+        "123456789",
+        "S"
+    };
+    int n;
+    cin >> n;
+    while(n)
+    {
+        if(n >= 100)
+        {
+            printf("B");
+            n -=100;
+        }else if(n >= 10)
+        {
+            cout << nums[10];
+            n -= 10;
+        }else {
+            cout << nums[n];
+            break;
+        }
+    }
+*/
