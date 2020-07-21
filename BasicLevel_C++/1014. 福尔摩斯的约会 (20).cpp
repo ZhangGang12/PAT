@@ -6,7 +6,7 @@ int main() {
     cin >> a >> b >> c >> d;
     char t[2];
     int pos, i = 0, j = 0;
-    while(i < a.length() && i < b.length()) {
+    while(i < a.length() && i < b.length()) { //判断G的位置
         if (a[i] == b[i] && (a[i] >= 'A' && a[i] <= 'G')) {
             t[0] = a[i];
             break;
@@ -14,7 +14,7 @@ int main() {
         i++;
     }
     i = i + 1;
-    while (i < a.length() && i < b.length()) {
+    while (i < a.length() && i < b.length()) {  //判断'N'的为止
         if (a[i] == b[i] && ((a[i] >= 'A' && a[i] <= 'N') || isdigit(a[i]))) {
             t[1] = a[i];
             break;

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-using namespace std;
+using namespace std;  //这道题的坑在于第一个数字是输入的大小
 int main() {
     int n, num, A1 = 0, A2 = 0, A5 = 0;
     double A4 = 0.0;

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-bool isprime(int a) {
+bool isprime(int a) {  //对于素数，试除法
     for (int i = 2; i * i <= a; i++)
         if(a % i == 0) return false;
     return true;

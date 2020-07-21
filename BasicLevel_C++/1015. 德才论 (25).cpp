@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-using namespace std;
+using namespace std;  
 struct node {
     int num, de, cai;
 };
@@ -38,5 +38,5 @@ int main() {
         for (int j = 0; j < v[i].size(); j++)
             printf("%d %d %d\n", v[i][j].num, v[i][j].de, v[i][j].cai);
     }
-    return 0;
+    return 0; // 本人出现的问题，cmp函数有遗漏
 }
